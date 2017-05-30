@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+<Button
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:text="@string/btn_bottom_confirm_vote"
+    android:id="@+id/btn_vote_bottom_confirm_vote"
+    android:background="@drawable/bg_btn_bottom"
+    android:layout_weight="0.5"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:id="@+id/btn_vote_bottom_share"
+        android:text="@string/btn_bottom_share"
+        android:background="@drawable/bg_btn_bottom"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"/>
+</LinearLayout>

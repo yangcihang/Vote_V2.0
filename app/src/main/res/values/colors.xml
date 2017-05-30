@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBrown">#b88819</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    
+    
+    
+    <color name="text_btn_login">#000000</color>
+    <color name="bg_vote_vote_has_selected">#ffda86</color>
+    <color name="bg_btn_login">#bdba00</color>
+    <color name="bg_btn_home_login_bottom_select">#ffda85</color>
+    <color name="text_btn_rank_unselected">#c0c0c0</color>
+    <color name="bg_vote_item">#8f8776</color>
+</resources>

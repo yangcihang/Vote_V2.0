@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="net.hrsoft.vote">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:name=".VoteApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity android:name=".home.activity.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".account.activity.LoginActivity">
+        </activity>
+        <activity android:name=".home.activity.VoteActivity">
+        </activity>
+        <activity android:name=".account.activity.RegisterActivity">
+        </activity>
+        <activity android:name=".home.activity.UserCenterActivity">
+        </activity>
+        <activity android:name=".home.activity.ModifyMobileActivity">
+        </activity>
+        <activity android:name=".account.activity.ForgetPasswordActivity">
+        </activity>
+    </application>
+
+</manifest>

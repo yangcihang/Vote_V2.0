@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_change_mobile_acticity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.hrsoft.vote.home.activity.ModifyMobileActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/txt_label_below_toolbar_margin"
+        android:layout_alignParentTop="true"
+        android:id="@+id/txt_label_first"
+        android:text="@string/txt_home_first_label"/>
+
+    <net.hrsoft.vote.widget.CleanableEditText
+        android:layout_width="200dp"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/edit_modify_mobile_mobile"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_hint_verify"
+        android:paddingLeft="5dp"
+        android:textSize="20sp"
+        android:background="@drawable/bg_edit_login_register"
+        android:id="@+id/edit_modify_mobile_verify"
+        android:layout_alignLeft="@+id/edit_modify_mobile_mobile"
+        android:layout_alignBottom="@+id/btn_modify_mobile_send_verify"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="12dp"
+        android:layout_height="30dp"
+        android:id="@+id/btn_modify_mobile_send_verify"
+        android:layout_below="@id/edit_modify_mobile_mobile"
+        android:layout_toRightOf="@id/edit_modify_mobile_verify"
+        android:layout_toEndOf="@id/edit_modify_mobile_verify"
+        android:text="@string/btn_get_verify"
+        android:background="@drawable/bg_edit_login_register"/>
+
+    <net.hrsoft.vote.widget.CleanableEditText
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:textSize="20sp"
+        android:id="@+id/edit_modify_mobile_mobile"
+        android:paddingLeft="5dp"
+        android:background="@drawable/bg_edit_login_register"
+        android:layout_marginTop="23dp"
+        android:hint="@string/edit_modify_mobile_mobile"
+        android:layout_below="@id/txt_label_first"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_modify_mobile_to_modify"
+        android:text="@string/btn_modify_mobile_to_modify"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_btn_login"
+        android:layout_below="@id/edit_modify_mobile_verify"/>
+</RelativeLayout>
